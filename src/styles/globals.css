@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #082b63;
+    --color-secondary: #168b45;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f7f9fc;
+    --bg-tertiary: #f0f4f8;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-tertiary: #64748b;
+    --border-color: #e2e8f0;
+    --glass-bg: rgba(255, 255, 255, 0.95);
+    --glass-border: rgba(0, 0, 0, 0.06);
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.03);
+    --shadow-card-hover: 0 4px 16px rgba(0, 0, 0, 0.06), 0 12px 32px rgba(0, 0, 0, 0.04);
+    --shadow-glass: 0 4px 24px rgba(0, 0, 0, 0.05);
+    --hero-overlay: rgba(8, 43, 99, 0.88);
+    --color-heading: #0f172a;
+    --color-body: #475569;
+    --color-muted: #64748b;
+  }
+
+  .dark {
+    --bg-primary: #081624;
+    --bg-secondary: #0c1f32;
+    --bg-tertiary: #122845;
+    --text-primary: #ffffff;
+    --text-secondary: #d8e2f0;
+    --text-tertiary: #cbd5e1;
+    --border-color: #1e3a5f;
+    --glass-bg: rgba(8, 22, 36, 0.92);
+    --glass-border: rgba(255, 255, 255, 0.06);
+    --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-card-hover: 0 4px 16px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.2);
+    --shadow-glass: 0 4px 24px rgba(0, 0, 0, 0.4);
+    --hero-overlay: rgba(4, 15, 31, 0.9);
+    --color-heading: #ffffff;
+    --color-body: #d8e2f0;
+    --color-muted: #cbd5e1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--text-primary);
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1280px] px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://klaudhunter.com/sitemap.xml
+
+# Disallow internal pages
+Disallow: /privacy-policy
+Disallow: /terms

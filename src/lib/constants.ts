@@ -1,0 +1,26 @@
+export const SITE = {
+  name: 'KLAUD HUNTER SERVICES PVT. LTD.',
+  shortName: 'KLAUD HUNTER',
+  tagline: 'Trusted Verification. Smarter Decisions.',
+  url: 'https://klaudhunter.com',
+  email: 'info@klaudhunter.com',
+  phone: '+91 9889001577',
+  phoneAlt: '+91 9196199191',
+  address: {
+    line1: 'Office No. 123, Corporate Tower',
+    line2: 'Sector 62, Noida',
+    city: 'Noida',
+    state: 'Uttar Pradesh',
+    pincode: '201301',
+    country: 'India',
+  },
+  social: {
+    linkedin: 'https://linkedin.com/company/klaudhunter',
+    twitter: 'https://twitter.com/klaudhunter',
+    facebook: 'https://facebook.com/klaudhunter',
+    instagram: 'https://instagram.com/klaudhunter',
+    youtube: 'https://youtube.com/@klaudhunter',
+  },
+  founded: 1999,
+  employees: '100+',
+} as const;
