@@ -7,6 +7,7 @@ interface CTASectionProps {
   title?: string;
   subtitle?: string;
   primaryText?: string;
+   primaryHref?:string;
   secondaryText?: string;
   variant?: 'navy' | 'green';
 }
@@ -15,6 +16,7 @@ export function CTASection({
   title = "Let's Secure Your Business Together",
   subtitle = 'Get in touch with our team to discuss how we can help protect your organization with trusted verification and risk management solutions.',
   primaryText = 'Contact Us Today',
+  primaryHref="mailto:vinay@kapikavach.com?subject=Job%20Application%20-%20Resume",
   secondaryText = 'Request a Callback',
   variant = 'navy',
 }: CTASectionProps) {
@@ -54,10 +56,13 @@ export function CTASection({
             {subtitle}
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Button variant="secondary" size="xl" className="group shadow-2xl shadow-secondary/20">
+          
+            <a href={primaryHref}>
+             <Button variant="secondary" size="xl" className="group shadow-2xl shadow-secondary/20">
               {primaryText}
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+            </Button>  
+            </a>
             <Button variant="white-outline" size="xl">
               <Phone className="mr-2 h-5 w-5" />
               {secondaryText}

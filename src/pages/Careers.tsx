@@ -76,9 +76,11 @@ export default function Careers() {
               in connecting with talented professionals in verification, investigation, sales,
               and operations.
             </p>
+          <a href="mailto:vinay@kapikavach.com">
             <Button size="lg">
               Send Your Resume
             </Button>
+          </a>
           </div>
         </ScrollReveal>
       </Section>
