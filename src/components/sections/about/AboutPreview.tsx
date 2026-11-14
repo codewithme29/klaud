@@ -27,7 +27,7 @@ const cards = [
     desc: 'Integrity, Accuracy, Speed, Confidentiality, and Excellence in everything we do.',
     border: 'border-[var(--border-color)] hover:border-primary/30',
     bg: 'bg-[var(--bg-primary)]',
-    iconBg: 'bg-[var(--bg-secondary)]',
+    iconBg: 'bg-primary',
   },
 ];
 

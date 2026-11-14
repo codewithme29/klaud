@@ -57,7 +57,10 @@ export function CoverageMap({ variant = 'default' }: CoverageMapProps) {
                     <CheckCircle className="h-3.5 w-3.5 text-secondary" />
                   )}
                 </div>
-                <h3 className="mt-2 text-sm font-semibold text-[var(--text-primary)]">
+                <h3   className={cn(
+                      'mt-2 text-sm font-semibold',
+                      isDark ? 'text-white' : 'text-[var(--text-tertiary)]'
+                    )} >
                   {region.name}
                 </h3>
                 <p className="mt-1 text-xs text-[var(--text-tertiary)]">
