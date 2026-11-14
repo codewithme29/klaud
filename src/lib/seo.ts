@@ -4,7 +4,7 @@ export function organizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'KLAUD HUNTER SERVICES PVT. LTD.',
+    name: 'KAPI KAVACH SERVICES PVT. LTD.',
     url: 'https://klaudhunter.com',
     logo: 'https://klaudhunter.com/logo.png',
     description:
@@ -25,7 +25,7 @@ export function websiteSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'KLAUD HUNTER SERVICES',
+    name: 'KAPI KAVACH SERVICES',
     url: 'https://klaudhunter.com',
   };
 }

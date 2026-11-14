@@ -20,7 +20,7 @@ export default function Careers() {
     <>
       <MetaTags
         title="Careers"
-        description="Join KLAUD HUNTER SERVICES - current openings and culture."
+        description="Join KAPI KAVACH SERVICES - current openings and culture."
         schema={organizationSchema()}
       />
 
@@ -42,7 +42,7 @@ export default function Careers() {
       <Section>
         <SectionHeading
           label="Why Join Us"
-          title="Build Your Career with KLAUD HUNTER"
+          title="Build Your Career with KAPI KAVACH"
           subtitle="Be part of a growing organization that values integrity, excellence, and innovation."
         />
         <ScrollReveal>

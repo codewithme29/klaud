@@ -11,7 +11,7 @@ interface MetaTagsProps {
   keywords?: string[];
 }
 
-const SITE_NAME = 'KLAUD HUNTER SERVICES PVT. LTD.';
+const SITE_NAME = 'KAPI KAVACH SERVICES PVT. LTD.';
 const BASE_URL = 'https://klaudhunter.com';
 const DEFAULT_DESC = 'Professional verification, investigation, audit and risk management solutions for Banks, NBFCs, Insurance, FinTech and Corporate Organizations.';
 

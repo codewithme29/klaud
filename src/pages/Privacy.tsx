@@ -23,7 +23,7 @@ export default function Privacy() {
           <div className="prose prose-gray max-w-3xl dark:prose-invert">
             <h2>1. Introduction</h2>
             <p>
-              KLAUD HUNTER SERVICES PVT. LTD. ("we", "our", "us") is committed to protecting
+              KAPI KAVACH SERVICES PVT. LTD. ("we", "our", "us") is committed to protecting
               your privacy. This Privacy Policy explains how we collect, use, disclose, and
               safeguard your information when you visit our website or use our services.
             </p>

@@ -1,18 +1,21 @@
 export const SITE = {
-  name: 'KLAUD HUNTER SERVICES PVT. LTD.',
-  shortName: 'KLAUD HUNTER',
+  name: 'KAPI KAVACH SERVICES PVT. LTD.',
+  shortName: 'KAPI KAVACH',
   tagline: 'Trusted Verification. Smarter Decisions.',
-  url: 'https://klaudhunter.com',
-  email: 'info@klaudhunter.com',
-  phone: '+91 9889001577',
-  phoneAlt: '+91 9196199191',
+  url: 'https://kapikavach.com',
+  email: 'info@kapikavach.com',
+  phone: '+91-9889001577',
+  phoneAlt: '+91-9196199191',
   address: {
-    line1: 'Office No. 123, Corporate Tower',
-    line2: 'Sector 62, Noida',
-    city: 'Noida',
+    line1: '655A/3/123, Alkapuri Colony',
+    line2: 'Kursi Road, Near IEM Institute, Lucknow, Uttar Pradesh',
+    city: 'Lucknow',
     state: 'Uttar Pradesh',
-    pincode: '201301',
+    pincode: '226022',
     country: 'India',
+  },
+  operatingoffice:{
+    line1:"Shop No. 2, F.I. Plaza, Near Sai Mandir, Kapoorthala, Lucknow  226024, Uttar Pradesh, India."
   },
   social: {
     linkedin: 'https://linkedin.com/company/klaudhunter',
@@ -21,6 +24,6 @@ export const SITE = {
     instagram: 'https://instagram.com/klaudhunter',
     youtube: 'https://youtube.com/@klaudhunter',
   },
-  founded: 1999,
+  founded: 2026,
   employees: '100+',
 } as const;

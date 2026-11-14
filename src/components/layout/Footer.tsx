@@ -1,6 +1,8 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
 import logoSrc from '@/assets/images/logo.png';
+import logoLightSrc from '@/assets/images/logo-light.webp';
 import { SITE } from '@/lib/constants';
 import { SocialLinks } from '@/components/common/SocialLinks';
 import { Container } from './Container';
@@ -26,7 +28,22 @@ const serviceLinks = [
 
 export function Footer() {
   const year = new Date().getFullYear();
+ const [isDark, setIsDark] = useState(
+  document.documentElement.classList.contains('dark')
+);
 
+useEffect(() => {
+  const observer = new MutationObserver(() => {
+    setIsDark(document.documentElement.classList.contains('dark'));
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class'],
+  });
+
+  return () => observer.disconnect();
+}, []);
   return (
     <footer className="relative bg-[#081624]">
       <div className="h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
@@ -37,8 +54,8 @@ export function Footer() {
           <div className="lg:col-span-4">
             <Link to="/" className="group inline-block">
               <img
-                src={logoSrc}
-                alt="KLAUD HUNTER SERVICES PVT. LTD."
+                src={logoLightSrc}
+                alt="KAPI KAVACH SERVICES PVT. LTD."
                 width="56"
                 height="56"
                 className="h-14 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
@@ -110,6 +127,10 @@ export function Footer() {
               <li className="flex items-start gap-3 text-sm text-gray-400">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <span className="max-w-[200px]">{SITE.address.line1}, {SITE.address.city}, {SITE.address.state}</span>
+              </li>
+              <li className="flex items-start gap-3 text-sm text-gray-400">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                <span className="max-w-[200px]">{SITE.operatingoffice.line1}</span>
               </li>
             </ul>
           </div>

@@ -10,20 +10,19 @@ import { values } from '@/data/values';
 
 const klaudAcronym = [
   { letter: 'K', word: 'Knowledge', meaning: 'Deep domain expertise in verification and investigation' },
-  { letter: 'L', word: 'Leadership', meaning: 'Industry-leading practices and solutions' },
   { letter: 'A', word: 'Accuracy', meaning: 'Precision in every verification and report' },
-  { letter: 'U', word: 'Understanding', meaning: 'Deep understanding of client needs' },
-  { letter: 'D', word: 'Dedication', meaning: 'Complete commitment to client satisfaction' },
-  { letter: 'H', word: 'Honesty', meaning: 'Transparent and ethical business practices' },
-  { letter: 'U', word: 'Unity', meaning: 'Collaborative approach with clients and partners' },
-  { letter: 'N', word: 'Network', meaning: 'Pan-India operational network' },
-  { letter: 'T', word: 'Trust', meaning: 'Building lasting relationships through reliability' },
-  { letter: 'E', word: 'Excellence', meaning: 'Striving for the highest quality standards' },
-  { letter: 'R', word: 'Reliability', meaning: 'Consistent and dependable service delivery' },
+  { letter: 'P', word: 'Protection', meaning: 'Safeguarding client interests through trusted verification services' },
+  { letter: 'I', word: 'Integrity', meaning: 'Upholding ethical standards and transparency in every engagement' },
+  { letter: 'K', word: 'Keen Vigilance', meaning: 'Maintaining alertness and attention to every detail' },
+  { letter: 'A', word: 'Accountability', meaning: 'Taking responsibility for quality, accuracy, and timely delivery' },
+  { letter: 'V', word: 'Verification', meaning: 'Ensuring authenticity through thorough and reliable checks' },
+  { letter: 'A', word: 'Assurance', meaning: 'Providing confidence through dependable verification outcomes' },
+  { letter: 'C', word: 'Confidentiality', meaning: 'Protecting sensitive information with utmost discretion' },
+  { letter: 'H', word: 'Honesty', meaning: 'Maintaining transparent and ethical business practices' },
 ];
 
 const milestones = [
-  { year: '1999', title: 'Founded', description: 'KLAUD HUNTER established with a vision to bring transparency to verification.' },
+  { year: '1999', title: 'Founded', description: 'KAPI KAVACH established with a vision to bring transparency to verification.' },
   { year: '2005', title: 'Pan-India Expansion', description: 'Expanded operations to 5 states with dedicated field teams.' },
   { year: '2010', title: 'Technology Integration', description: 'Launched digital reporting and geo-tagging capabilities.' },
   { year: '2015', title: '10000+ Cases', description: 'Milestone of 10,000 completed verification cases achieved.' },
@@ -36,7 +35,7 @@ export default function About() {
     <>
       <MetaTags
         title="About Us"
-        description="Learn about KLAUD HUNTER's 25+ year legacy in verification and investigation services."
+        description="Learn about KAPI KAVACH's 25+ year legacy in verification and investigation services."
         schema={{
           ...organizationSchema(),
           ...breadcrumbSchema([{ name: 'Home', url: 'https://klaudhunter.com' }, { name: 'About', url: 'https://klaudhunter.com/about' }]),
@@ -51,7 +50,7 @@ export default function About() {
               About Us
             </h1>
             <p className="mt-4 max-w-xl text-lg text-gray-300">
-              Trusted verification and investigation services since 1999. Knowledge Driven. Trust Delivered.
+              Trusted verification and investigation services since 2026. Knowledge Driven. Trust Delivered.
             </p>
           </ScrollReveal>
         </Container>
@@ -63,17 +62,18 @@ export default function About() {
           <ScrollReveal direction="left">
             <div>
               <span className="text-sm font-semibold uppercase tracking-wider text-primary">Our Story</span>
-              <h2 className="mt-3 font-heading text-3xl font-bold md:text-4xl">Building Trust Since 1999</h2>
+              <h2 className="mt-3 font-heading text-3xl font-bold md:text-4xl">Building Trust Since 2026</h2>
               <p className="mt-6 text-[var(--text-secondary)] leading-relaxed">
-                KLAUD HUNTER SERVICES PVT. LTD. was founded with a singular vision: to bring transparency
+                KAPI KAVACH SERVICES PVT. LTD. was founded with a singular vision: to bring transparency
                 and trust to business operations through reliable verification and investigation services.
                 What started as a small operation has grown into one of India's most respected verification
                 companies, serving leading Banks, NBFCs, Insurance companies, and Corporate organizations.
               </p>
               <p className="mt-4 text-[var(--text-secondary)] leading-relaxed">
-                Our name embodies our philosophy — KLAUD represents Knowledge, Leadership, Accuracy,
-                Understanding, and Dedication. HUNTER represents Honesty, Unity, Network, Trust,
-                Excellence, and Reliability. Together, they define who we are and what we stand for.
+               KAPI KAVACH represents a commitment to Knowledge, Accuracy, Protection, Integrity, Keen Vigilance, Accountability, Verification, Assurance, Confidentiality, and Honesty.
+               <br/>
+               Inspired by the meaning of Kavach (कवच), symbolizing a shield of protection, our brand stands for safeguarding trust through accurate verification, responsible investigation, and dependable services.
+               We strive to be a trusted verification partner, delivering confidence, security, and reliability in every engagement.
               </p>
             </div>
           </ScrollReveal>
@@ -95,10 +95,10 @@ export default function About() {
         </div>
       </Section>
 
-      {/* KLAUD HUNTER Acronym */}
+      {/* KAPI KAVACH Acronym */}
       <Section dark>
         <SectionHeading
-          title="The KLAUD HUNTER Philosophy"
+          title="The KAPI KAVACH Philosophy"
           subtitle="Every letter in our name represents a core value that drives our organization."
         />
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -113,7 +113,7 @@ export default function About() {
       </Section>
 
       {/* Timeline */}
-      <Section>
+      {/* <Section>
         <SectionHeading title="Our Journey" subtitle="Key milestones in our growth and evolution." align="left" />
         <ScrollReveal>
           <div className="space-y-8">
@@ -135,7 +135,7 @@ export default function About() {
             ))}
           </div>
         </ScrollReveal>
-      </Section>
+      </Section> */}
 
       <LeadershipPreview />
       <CTASection />

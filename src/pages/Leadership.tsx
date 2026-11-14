@@ -25,7 +25,7 @@ export default function Leadership() {
               Our Leadership
             </h1>
             <p className="mt-4 max-w-xl text-lg text-gray-300">
-              Meet the experienced professionals driving KLAUD HUNTER's vision of trust,
+              Meet the experienced professionals driving KAPI KAVACH's vision of trust,
               accuracy, and excellence in verification services.
             </p>
           </ScrollReveal>

@@ -3,7 +3,7 @@ import type { TestimonialData } from '@/types/content';
 export const testimonials: TestimonialData[] = [
   {
     id: 't1',
-    quote: "KLAUD HUNTER has been our field verification partner for over five years. Their accuracy on employment and residence checks is exceptional, and their turnaround consistently beats our internal SLAs. They have measurably reduced our early-default fraud.",
+    quote: "KAPI KAVACH has been our field verification partner for over five years. Their accuracy on employment and residence checks is exceptional, and their turnaround consistently beats our internal SLAs. They have measurably reduced our early-default fraud.",
     author: 'Rajesh Mehta',
     role: 'Chief Risk Officer',
     company: 'Private Sector Bank',
@@ -19,7 +19,7 @@ export const testimonials: TestimonialData[] = [
   },
   {
     id: 't3',
-    quote: "We have tried several verification agencies across North India. KLAUD HUNTER stands apart on two things: their pan-regional field strength and their geo-tagged digital reporting. Our KYC rejection rate has dropped by nearly a third.",
+    quote: "We have tried several verification agencies across North India. KAPI KAVACH stands apart on two things: their pan-regional field strength and their geo-tagged digital reporting. Our KYC rejection rate has dropped by nearly a third.",
     author: 'Vikram Patel',
     role: 'AVP – Operations',
     company: 'NBFC',

@@ -6,11 +6,12 @@ import { SectionHeading } from '@/components/common/SectionHeading';
 import { CoverageMap } from '@/components/sections/coverage/CoverageMap';
 import { CTASection } from '@/components/sections/cta/CTASection';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
-import { offices } from '@/data/coverage';
+import { offices, operatingoffice } from '@/data/coverage';
 import { MapPin, Phone, Mail, Building } from 'lucide-react';
 
 export default function Coverage() {
   const hq = offices.find((o) => o.isHeadquarters);
+  const officeLoc = operatingoffice;
 
   return (
     <>
@@ -42,30 +43,44 @@ export default function Coverage() {
           <SectionHeading
             title="Corporate Headquarters"
             subtitle="Visit our corporate office or get in touch."
-            align="left"
+            align="center"
           />
           <ScrollReveal>
-            <div className="max-w-md rounded-xl border border-primary/10 bg-[var(--bg-primary)] p-6">
-              <div className="flex items-center gap-3">
-                <Building className="h-5 w-5 text-primary" />
-                <h3 className="font-heading font-semibold text-[var(--text-primary)]">{hq.name}</h3>
+          <div className="grid grid-cols-3 gap-6 md:grid-cols-1 lg:grid-cols-2">
+                {operatingoffice.map((office, index) => (
+                  <div
+                    key={office.id ?? index}
+                    className="max-w-md rounded-xl border border-primary/10 bg-[var(--bg-primary)] p-6"
+                  >
+                    <div className="flex items-center gap-3">
+                      <Building className="h-5 w-5 text-primary" />
+                      <h3 className="font-heading font-semibold text-[var(--text-primary)]">
+                        {office.name}
+                      </h3>
+                    </div>
+
+                    <div className="mt-4 space-y-3 text-sm text-[var(--text-secondary)]">
+                      <p className="flex items-start gap-2">
+                        <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                        {office.address}, {office.city}, {office.state}
+                      </p>
+
+                      <p className="flex items-center gap-2">
+                        <Phone className="h-4 w-4 shrink-0 text-primary" />
+                        {office.phone}
+                      </p>
+
+                      <p className="flex items-center gap-2">
+                        <Mail className="h-4 w-4 shrink-0 text-primary" />
+                        {office.email}
+                      </p>
+                    </div>
+                  </div>
+                ))}
               </div>
-              <div className="mt-4 space-y-3 text-sm text-[var(--text-secondary)]">
-                <p className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4 text-primary" />
-                  {hq.address}, {hq.city}, {hq.state}
-                </p>
-                <p className="flex items-center gap-2">
-                  <Phone className="h-4 w-4 text-primary" />
-                  {hq.phone}
-                </p>
-                <p className="flex items-center gap-2">
-                  <Mail className="h-4 w-4 text-primary" />
-                  {hq.email}
-                </p>
-              </div>
-            </div>
+           
           </ScrollReveal>
+          
         </Section>
       )}
 

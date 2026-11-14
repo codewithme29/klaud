@@ -23,14 +23,14 @@ export default function Terms() {
           <div className="prose prose-gray max-w-3xl dark:prose-invert">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing or using the services of KLAUD HUNTER SERVICES PVT. LTD., you agree
+              By accessing or using the services of KAPI KAVACH SERVICES PVT. LTD., you agree
               to be bound by these Terms of Service. If you do not agree with any part of these
               terms, you should not use our services.
             </p>
 
             <h2>2. Description of Services</h2>
             <p>
-              KLAUD HUNTER SERVICES PVT. LTD. provides verification, investigation, risk management,
+              KAPI KAVACH SERVICES PVT. LTD. provides verification, investigation, risk management,
               audit, collection, and related services to BFSI and Corporate clients. The specific
               scope of services will be defined in individual service agreements.
             </p>
@@ -53,14 +53,14 @@ export default function Terms() {
 
             <h2>5. Intellectual Property</h2>
             <p>
-              All content, materials, and reports provided by KLAUD HUNTER SERVICES PVT. LTD.
+              All content, materials, and reports provided by KAPI KAVACH SERVICES PVT. LTD.
               are our intellectual property and may not be reproduced or distributed without
               our written consent.
             </p>
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              KLAUD HUNTER SERVICES PVT. LTD. shall not be liable for any indirect, incidental,
+              KAPI KAVACH SERVICES PVT. LTD. shall not be liable for any indirect, incidental,
               or consequential damages arising from the use of our services, except as expressly
               provided in our service agreement.
             </p>

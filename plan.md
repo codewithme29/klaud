@@ -1,8 +1,8 @@
-# KLAUD HUNTER SERVICES PVT. LTD. — Corporate Website Plan
+# KAPI KAVACH SERVICES PVT. LTD. — Corporate Website Plan
 
 ## Overview
 
-Premium enterprise corporate website for **KLAUD HUNTER SERVICES PVT. LTD.** — a Verification, Investigation, Risk Management, Audit and Collection services firm for BFSI and Corporate clients.
+Premium enterprise corporate website for **KAPI KAVACH SERVICES PVT. LTD.** — a Verification, Investigation, Risk Management, Audit and Collection services firm for BFSI and Corporate clients.
 
 **Goal:** Make a Bank or NBFC executive immediately think *"This company looks credible enough to handle our verification operations."*
 

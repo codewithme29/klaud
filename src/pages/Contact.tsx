@@ -15,7 +15,7 @@ export default function Contact() {
     <>
       <MetaTags
         title="Contact Us"
-        description="Get in touch with KLAUD HUNTER SERVICES."
+        description="Get in touch with KAPI KAVACH SERVICES."
         schema={organizationSchema()}
       />
 
@@ -116,25 +116,58 @@ export default function Contact() {
       </Section>
 
       {/* Map Placeholder */}
-      <Section dark>
-        <SectionHeading
-          title="Find Us"
-          subtitle="Visit our corporate headquarters."
+      
+<Section dark>
+  <SectionHeading
+    title="Find Us"
+    subtitle="Visit our corporate headquarters in Lucknow, Uttar Pradesh."
+  />
+
+  <ScrollReveal>
+    <div className="overflow-hidden rounded-xl border border-[var(--border-color)] bg-[var(--bg-secondary)]">
+      <div className="h-80 w-full">
+        <iframe
+          title="KAPI KAVACH Services Pvt Ltd - Office Location"
+          src="https://www.google.com/maps?q=655A%2F3%2F123%2C%20Alkapuri%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh%20226022&output=embed"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          loading="lazy"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
         />
-        <ScrollReveal>
-          <div className="flex h-80 items-center justify-center rounded-xl border border-[var(--border-color)] bg-[var(--bg-secondary)]">
-            <div className="text-center">
-              <MapPin className="mx-auto h-10 w-10 text-primary/40" />
-              <p className="mt-2 text-sm text-[var(--text-tertiary)]">
-                Noida, Uttar Pradesh
-              </p>
-              <p className="text-xs text-[var(--text-tertiary)]">
-                Google Maps integration coming soon
-              </p>
-            </div>
+      </div>
+
+      <div className="flex flex-col gap-3 p-5 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-start gap-3">
+          <MapPin className="mt-1 h-5 w-5 shrink-0 text-primary" />
+
+          <div>
+            <h3 className="font-heading font-semibold text-[var(--text-primary)]">
+              KAPI KAVACH SERVICES PVT LTD
+            </h3>
+
+            <p className="mt-1 text-sm text-[var(--text-secondary)]">
+              655A/3/123, Alkapuri Colony, Lucknow,
+              Uttar Pradesh - 226022
+            </p>
           </div>
-        </ScrollReveal>
-      </Section>
+        </div>
+
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=655A%2F3%2F123%2C%20Alkapuri%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh%20226022"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+        >
+          <MapPin className="h-4 w-4" />
+          Get Directions
+        </a>
+      </div>
+    </div>
+  </ScrollReveal>
+</Section>
+
 
       <CTASection />
     </>

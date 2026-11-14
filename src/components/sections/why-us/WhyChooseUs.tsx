@@ -27,7 +27,7 @@ export function WhyChooseUs({ variant = 'default' }: WhyChooseUsProps) {
         <SectionHeading
           label="Why Choose Us"
           title="Built for Trust. Driven by Technology."
-          subtitle="What sets KLAUD HUNTER apart from the competition."
+          subtitle="What sets KAPI KAVACH apart from the competition."
           light
         />
         <ScrollReveal>
@@ -62,7 +62,7 @@ export function WhyChooseUs({ variant = 'default' }: WhyChooseUsProps) {
       <SectionHeading
         label="Why Choose Us"
         title="Built for Trust. Driven by Technology."
-        subtitle="What sets KLAUD HUNTER apart from the competition."
+        subtitle="What sets KAPI KAVACH apart from the competition."
       />
       <ScrollReveal>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">

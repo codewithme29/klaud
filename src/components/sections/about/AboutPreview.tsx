@@ -41,7 +41,7 @@ export function AboutPreview() {
             <div className="max-w-lg">
               <span className="inline-flex items-center gap-2 rounded-full bg-[var(--bg-secondary)] px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--text-secondary)]">
                 <span className="h-1.5 w-1.5 rounded-full bg-secondary" />
-                About KLAUD HUNTER
+                About KAPI KAVACH
               </span>
               <h2 className="mt-5 font-heading text-[clamp(1.75rem,3.5vw,2.5rem)] font-bold leading-[1.1] tracking-[-0.01em] text-[var(--text-primary)]">
                 Knowledge Driven.
@@ -49,7 +49,7 @@ export function AboutPreview() {
                 <span className="text-primary">Trust Delivered.</span>
               </h2>
               <p className="mt-6 text-base leading-[1.8] text-[var(--text-secondary)]">
-                KLAUD HUNTER SERVICES PVT. LTD. is a technology-driven verification and
+                KAPI KAVACH SERVICES PVT. LTD. is a technology-driven verification and
                 investigation partner for financial institutions. We specialise in the checks
                 that protect credit risk &mdash; residence, employment, KYC, fraud control and
                 field intelligence &mdash; for Banks, NBFCs, Insurance and FinTech companies.

@@ -12,7 +12,7 @@ const insights = [
     excerpt: 'How digital transformation is reshaping the verification industry and what it means for BFSI organizations.',
     category: 'Industry Insights',
     date: 'Jan 15, 2024',
-    author: 'KLAUD HUNTER Team',
+    author: 'KAPI KAVACH Team',
     readTime: '5 min read',
   },
   {
@@ -21,7 +21,7 @@ const insights = [
     excerpt: 'A comprehensive guide to navigating KYC compliance requirements and best practices in the current regulatory landscape.',
     category: 'Compliance',
     date: 'Dec 20, 2024',
-    author: 'KLAUD HUNTER Team',
+    author: 'KAPI KAVACH Team',
     readTime: '8 min read',
   },
   {
@@ -30,7 +30,7 @@ const insights = [
     excerpt: 'Essential strategies to protect your organization from fraud, including field verification best practices.',
     category: 'Risk Management',
     date: 'Nov 28, 2024',
-    author: 'KLAUD HUNTER Team',
+    author: 'KAPI KAVACH Team',
     readTime: '6 min read',
   },
 ];
@@ -46,7 +46,7 @@ export function InsightsGrid({ variant = 'default' }: InsightsGridProps) {
     <Section id="insights" dark={variant === 'dark'} navy={variant === 'navy'}>
       <SectionHeading
         label="Insights"
-        title="Latest from KLAUD HUNTER"
+        title="Latest from KAPI KAVACH"
         subtitle="Industry insights, compliance updates, and best practices for verification and risk management."
         light={variant === 'navy'}
       />

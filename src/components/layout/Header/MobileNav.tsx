@@ -35,7 +35,7 @@ export function MobileNav({ onClose }: MobileNavProps) {
         <div className="flex items-center justify-between border-b border-[var(--border-color)] p-4">
           <Link to="/" className="flex items-center gap-2" onClick={onClose}>
             <Shield className="h-6 w-6 text-primary" />
-            <span className="font-heading font-bold">KLAUD HUNTER</span>
+            <span className="font-heading font-bold">KAPI KAVACH</span>
           </Link>
           <div className="flex items-center gap-2">
             <ThemeToggle />

@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu } from 'lucide-react';
 import logoSrc from '@/assets/images/logo.png';
+import logoLightSrc from '@/assets/images/logo-light.webp';
 import { cn } from '@/lib/utils';
 import { navItems } from '@/data/navigation';
 import { ThemeToggle } from '@/features/theme/ThemeToggle';
@@ -50,6 +51,22 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
+  const [isDark, setIsDark] = useState(
+  document.documentElement.classList.contains('dark')
+);
+
+useEffect(() => {
+  const observer = new MutationObserver(() => {
+    setIsDark(document.documentElement.classList.contains('dark'));
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class'],
+  });
+
+  return () => observer.disconnect();
+}, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -77,8 +94,8 @@ export function Header() {
           <div className="flex h-20 items-center justify-between">
             <Link to="/" className="group shrink-0">
               <img
-                src={logoSrc}
-                alt="KLAUD HUNTER SERVICES PVT. LTD."
+                src={isDark ? logoLightSrc : logoSrc}
+                alt="KAPI KAVACH SERVICES PVT. LTD."
                 width="56"
                 height="56"
                 className="h-14 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
@@ -95,13 +112,13 @@ export function Header() {
 
             <div className="flex items-center gap-4">
               <ThemeToggle />
-              <Button
+              {/* <Button
                 variant="secondary"
                 className="hidden md:inline-flex shadow-xl shadow-secondary/15"
                 size="sm"
               >
                 Request Callback
-              </Button>
+              </Button> */}
               <button
                 onClick={() => setMobileOpen(true)}
                 className="flex h-10 w-10 items-center justify-center rounded-lg border border-[var(--border-color)] text-[var(--text-secondary)] hover:border-[var(--text-tertiary)] hover:text-[var(--text-primary)] lg:hidden"
