@@ -18,11 +18,11 @@ export const SITE = {
     line1:"Shop No. 2, F.I. Plaza, Near Sai Mandir, Kapoorthala, Lucknow  226024, Uttar Pradesh, India."
   },
   social: {
-    linkedin: 'https://linkedin.com/company/klaudhunter',
-    twitter: 'https://twitter.com/klaudhunter',
-    facebook: 'https://facebook.com/klaudhunter',
-    instagram: 'https://instagram.com/klaudhunter',
-    youtube: 'https://youtube.com/@klaudhunter',
+    linkedin: 'https://linkedin.com/company/kapikavach',
+    twitter: 'https://twitter.com/kapikavach',
+    facebook: 'https://facebook.com/kapikavach',
+    instagram: 'https://instagram.com/kapikavach',
+    youtube: 'https://youtube.com/@kapikavach',
   },
   founded: 2026,
   employees: '100+',

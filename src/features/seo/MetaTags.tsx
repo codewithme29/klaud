@@ -12,7 +12,7 @@ interface MetaTagsProps {
 }
 
 const SITE_NAME = 'KAPI KAVACH SERVICES PVT. LTD.';
-const BASE_URL = 'https://klaudhunter.com';
+const BASE_URL = 'https://kapikavach.com';
 const DEFAULT_DESC = 'Professional verification, investigation, audit and risk management solutions for Banks, NBFCs, Insurance, FinTech and Corporate Organizations.';
 
 export function MetaTags({

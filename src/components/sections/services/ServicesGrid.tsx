@@ -49,7 +49,7 @@ export function ServicesGrid({ variant = 'default' }: ServicesGridProps) {
           )}>
             {[
               { title: 'Risk Control', desc: 'Stop fraud before it enters your books' },
-              { title: 'Operational Efficiency', desc: '48-hour TAT with digital reporting' },
+              { title: 'Operational Efficiency', desc: '24-48 hour TAT with digital reporting' },
               { title: 'Customer Experience', desc: 'Fast, frictionless onboarding' },
             ].map((item) => (
               <div key={item.title} className="px-4">

@@ -5,8 +5,8 @@ export function organizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'KAPI KAVACH SERVICES PVT. LTD.',
-    url: 'https://klaudhunter.com',
-    logo: 'https://klaudhunter.com/logo.png',
+    url: 'https://kapikavach.com',
+    logo: 'https://kapikavach.com/logo.png',
     description:
       'Verification, Investigation, Risk Management, Audit and Collection Services for BFSI and Corporate clients.',
     contactPoint: {
@@ -26,7 +26,7 @@ export function websiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'KAPI KAVACH SERVICES',
-    url: 'https://klaudhunter.com',
+    url: 'https://kapikavach.com',
   };
 }
 

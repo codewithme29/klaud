@@ -92,7 +92,7 @@ export default function Privacy() {
             <h2>8. Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy or our data practices,
-              please contact us at <strong>info@klaudhunter.com</strong>.
+              please contact us at <strong>info@kapikavach.com</strong>.
             </p>
           </div>
         </Container>

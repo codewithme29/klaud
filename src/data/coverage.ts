@@ -15,17 +15,17 @@ export const regions: RegionData[] = [
 ];
 
 export const offices = [
-  { id: 'noida-hq', name: 'Corporate Headquarters', address: 'Sector 62', city: 'Noida', state: 'Uttar Pradesh', phone: '+91 9889001577', email: 'info@klaudhunter.com', coordinates: { lat: 28.584, lng: 77.319 }, isHeadquarters: false },
-  { id: 'delhi', name: 'Delhi Office', address: 'Connaught Place', city: 'New Delhi', state: 'Delhi', phone: '+91 9196199191', email: 'delhi@klaudhunter.com', coordinates: { lat: 28.632, lng: 77.220 }, isHeadquarters: false },
-  { id: 'mumbai', name: 'Mumbai Office', address: 'Andheri East', city: 'Mumbai', state: 'Maharashtra', phone: '+91 9889001577', email: 'mumbai@klaudhunter.com', coordinates: { lat: 19.076, lng: 72.877 }, isHeadquarters: false },
-  { id: 'gurugram', name: 'Gurugram Office', address: 'Gurgaon', city: 'Gurugram', state: 'Haryana', phone: '+91 9889001577', email: 'gurugram@klaudhunter.com', coordinates: { lat: 28.459, lng: 77.026 }, isHeadquarters: false },
-  { id: 'chandigarh', name: 'Chandigarh Office', address: 'Sector 8', city: 'Chandigarh', state: 'Punjab', phone: '+91 9196199191', email: 'chandigarh@klaudhunter.com', coordinates: { lat: 30.733, lng: 76.779 }, isHeadquarters: false },
+  { id: 'noida-hq', name: 'Corporate Headquarters', address: 'Sector 62', city: 'Noida', state: 'Uttar Pradesh', phone: '+91 9889001577', email: 'info@kapikavach.com', coordinates: { lat: 28.584, lng: 77.319 }, isHeadquarters: false },
+  { id: 'delhi', name: 'Delhi Office', address: 'Connaught Place', city: 'New Delhi', state: 'Delhi', phone: '+91 9196199191', email: 'delhi@kapikavach.com', coordinates: { lat: 28.632, lng: 77.220 }, isHeadquarters: false },
+  { id: 'mumbai', name: 'Mumbai Office', address: 'Andheri East', city: 'Mumbai', state: 'Maharashtra', phone: '+91 9889001577', email: 'mumbai@kapikavach.com', coordinates: { lat: 19.076, lng: 72.877 }, isHeadquarters: false },
+  { id: 'gurugram', name: 'Gurugram Office', address: 'Gurgaon', city: 'Gurugram', state: 'Haryana', phone: '+91 9889001577', email: 'gurugram@kapikavach.com', coordinates: { lat: 28.459, lng: 77.026 }, isHeadquarters: false },
+  { id: 'chandigarh', name: 'Chandigarh Office', address: 'Sector 8', city: 'Chandigarh', state: 'Punjab', phone: '+91 9196199191', email: 'chandigarh@kapikavach.com', coordinates: { lat: 30.733, lng: 76.779 }, isHeadquarters: false },
   { id: 'lucknow', name: 'Lucknow Office', address: '655A/3/123, Alkapuri Colony,Kursi Road, Near IEM Institute, Lucknow, Uttar Pradesh', city: 'Lucknow', state: 'Uttar Pradesh', phone: '+91 9889001577', email: 'info@kapikavach.com', coordinates: { lat: 26.847, lng: 80.947 }, isHeadquarters: true },
-  { id: 'patna', name: 'Patna Office', address: 'Boring Road', city: 'Patna', state: 'Bihar', phone: '+91 9196199191', email: 'patna@klaudhunter.com', coordinates: { lat: 25.594, lng: 85.138 }, isHeadquarters: false },
-  { id: 'ranchi', name: 'Ranchi Office', address: 'Main Road', city: 'Ranchi', state: 'Jharkhand', phone: '+91 9889001577', email: 'ranchi@klaudhunter.com', coordinates: { lat: 23.344, lng: 85.310 }, isHeadquarters: false },
-  { id: 'jaipur', name: 'Jaipur Office', address: 'MI Road', city: 'Jaipur', state: 'Rajasthan', phone: '+91 9196199191', email: 'jaipur@klaudhunter.com', coordinates: { lat: 26.912, lng: 75.787 }, isHeadquarters: false },
-  { id: 'bhopal', name: 'Bhopal Office', address: 'MP Nagar', city: 'Bhopal', state: 'Madhya Pradesh', phone: '+91 9889001577', email: 'bhopal@klaudhunter.com', coordinates: { lat: 23.259, lng: 77.412 }, isHeadquarters: false },
-  { id: 'dehradun', name: 'Dehradun Office', address: 'Rajpur Road', city: 'Dehradun', state: 'Uttarakhand', phone: '+91 9196199191', email: 'dehradun@klaudhunter.com', coordinates: { lat: 30.316, lng: 78.032 }, isHeadquarters: false },
+  { id: 'patna', name: 'Patna Office', address: 'Boring Road', city: 'Patna', state: 'Bihar', phone: '+91 9196199191', email: 'patna@kapikavach.com', coordinates: { lat: 25.594, lng: 85.138 }, isHeadquarters: false },
+  { id: 'ranchi', name: 'Ranchi Office', address: 'Main Road', city: 'Ranchi', state: 'Jharkhand', phone: '+91 9889001577', email: 'ranchi@kapikavach.com', coordinates: { lat: 23.344, lng: 85.310 }, isHeadquarters: false },
+  { id: 'jaipur', name: 'Jaipur Office', address: 'MI Road', city: 'Jaipur', state: 'Rajasthan', phone: '+91 9196199191', email: 'jaipur@kapikavach.com', coordinates: { lat: 26.912, lng: 75.787 }, isHeadquarters: false },
+  { id: 'bhopal', name: 'Bhopal Office', address: 'MP Nagar', city: 'Bhopal', state: 'Madhya Pradesh', phone: '+91 9889001577', email: 'bhopal@kapikavach.com', coordinates: { lat: 23.259, lng: 77.412 }, isHeadquarters: false },
+  { id: 'dehradun', name: 'Dehradun Office', address: 'Rajpur Road', city: 'Dehradun', state: 'Uttarakhand', phone: '+91 9196199191', email: 'dehradun@kapikavach.com', coordinates: { lat: 30.316, lng: 78.032 }, isHeadquarters: false },
 ];
 export const operatingoffice = [
   {id:'operatingoffice',name: 'Operating Office', address:"Shop No. 2, F.I. Plaza, Near Sai Mandir, Kapoorthala",city: 'Lucknow', state: 'Uttar Pradesh',phone: '+91 9889001577', email: 'info@kapikavach.com', coordinates: { lat: 26.847, lng: 80.947 }, isOffice: true},

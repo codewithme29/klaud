@@ -29,7 +29,7 @@ export const services: ServiceData[] = [
       { step: 6, title: 'Client Delivery', description: 'Secure digital delivery to client portal', icon: 'Send' },
     ],
     faqs: [
-      { question: 'How quickly can you complete a verification?', answer: 'Standard verifications are completed within 24-48 hours. Express verifications can be completed within 12 hours for urgent requirements.' },
+      { question: 'How quickly can you complete a verification?', answer: 'Standard verifications are completed within 24-48 hours. Express verifications can be completed within 24 hours for urgent requirements.' },
       { question: 'What proof do you provide?', answer: 'We provide photographic evidence, geo-tagged coordinates, investigator visit report, and digital timestamp for every verification.' },
     ],
     category: 'verification',

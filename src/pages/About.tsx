@@ -38,7 +38,7 @@ export default function About() {
         description="Learn about KAPI KAVACH's 25+ year legacy in verification and investigation services."
         schema={{
           ...organizationSchema(),
-          ...breadcrumbSchema([{ name: 'Home', url: 'https://klaudhunter.com' }, { name: 'About', url: 'https://klaudhunter.com/about' }]),
+          ...breadcrumbSchema([{ name: 'Home', url: 'https://kapikavach.com' }, { name: 'About', url: 'https://kapikavach.com/about' }]),
         }}
       />
 

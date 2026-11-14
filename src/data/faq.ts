@@ -7,7 +7,7 @@ export const faqs: FAQItemData[] = [
   },
   {
     question: 'How quickly can you complete a verification?',
-    answer: 'Standard verifications are completed within 24-48 hours. We also offer express verification services that can be completed within 12 hours for urgent requirements. Timelines depend on the location and complexity of the verification.',
+    answer: 'Standard verifications are completed within 24-48 hours. We also offer express verification services that can be completed within 24 hours for urgent requirements. Timelines depend on the location and complexity of the verification.',
   },
   {
     question: 'What geographic areas do you cover?',

@@ -87,7 +87,7 @@ export default function Terms() {
 
             <h2>10. Contact</h2>
             <p>
-              For questions about these terms, please contact us at <strong>info@klaudhunter.com</strong>.
+              For questions about these terms, please contact us at <strong>info@kapikavach.com</strong>.
             </p>
           </div>
         </Container>

@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://klaudhunter.com/sitemap.xml
+Sitemap: https://kapikavach.com/sitemap.xml
 
 # Disallow internal pages
 Disallow: /privacy-policy
