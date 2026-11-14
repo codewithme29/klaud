@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "start": "serve -s dist -l $PORT",
+    "start": "serve -s dist -l 5173",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
